@@ -1,5 +1,5 @@
-#ifndef lolin_RGBled
-#define lolin_RGBled
+#ifndef Settings
+#define Settings
 /*
     char fullPath[] = __FILE__;
     char *slash;

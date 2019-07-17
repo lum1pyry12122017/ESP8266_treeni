@@ -33,6 +33,7 @@ MicroOLED oled(PIN_RESET, DC_JUMPER); // Example I2C declaration
 
 void setup(){
 	Serial.begin(9600);
+	addVersionToSerialOutput();
 // Start sensor
 	dht12.begin();
 // Initialize the OLED.
@@ -65,3 +66,8 @@ void senddatatoblynk(){
   Blynk.virtualWrite(V16, t12);
 }
 
+void addVersionToSerialOutput()
+{
+    char fullPath[] = __FILE__;
+    Serial.println(fullPath);
+}
