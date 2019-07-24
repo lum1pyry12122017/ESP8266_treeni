@@ -1,4 +1,6 @@
-//toimii 30.08.2018
+//toimii 30.08.2018 ja 24.7.2019
+//Musta muovilaatikko, jossa 3kpl rgbLED, kytkin ja 1kpl punainen LED
+
 //http://www.mrhobbytronics.com/esp8266-blynk-neopixel/
 //change the type to merged and assign it to virtual pin 21
 
