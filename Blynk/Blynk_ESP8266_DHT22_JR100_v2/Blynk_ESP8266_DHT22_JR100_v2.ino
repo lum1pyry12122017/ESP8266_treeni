@@ -1,5 +1,5 @@
 //Toimii!! AM2302 Jakorasia 100, ottaa yhtetytta serveriin, mutta valilla "Failed to read from DHT sensor!".
-
+//Blynk_ESP8266_DHT22_JR100_v2
 /*************************************************************
   Download latest Blynk library here:
     https://github.com/blynkkk/blynk-library/releases/latest
